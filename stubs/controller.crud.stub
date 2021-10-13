@@ -1,0 +1,35 @@
+<?php
+
+namespace {{ namespace }};
+
+use {{ rootNamespace }}Http\Controllers\CRUDController;
+use {{ repoNamespace }};
+use {{ resourceNamespace }};
+
+class {{ class }} extends CRUDController
+{
+    /**
+     * Instancia del repositorio.
+     * 
+     * @var \{{ repoNamespace }}
+     */
+    protected $repo = {{ repoClass }}::class;
+
+    /**
+     * @var \{{ resourceNamespace }}
+     */
+    protected $resource = {{ resourceClass }}::class;
+
+    /**
+     * Indica las relaciones que se cargaran según el método indicado.
+     * 
+     * @param string $method 
+     * @return array 
+     */
+    protected function loadRelations(string $method)
+    {
+        $relations = [];
+
+        return $relations;
+    }
+}

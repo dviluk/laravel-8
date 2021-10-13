@@ -1,0 +1,67 @@
+{
+    "name": "PROYECT_NAME",
+    "dockerComposeFile": "../docker-compose.yml",
+    "service": "laravel",
+    "remoteUser": "sail",
+    "workspaceFolder": "/home/sail/PROYECT_NAME",
+    "extensions": [
+        "felixfbecker.php-debug",
+        "neilbrayfield.php-docblocker",
+        "bmewburn.vscode-intelephense-client",
+        "stef-k.laravel-goto-controller",
+        "onecentlin.laravel-blade",
+        "codingyu.laravel-goto-view",
+        "eamodio.gitlens",
+        "streetsidesoftware.code-spell-checker",
+        "streetsidesoftware.code-spell-checker-spanish",
+        "amiralizadeh9480.laravel-extra-intellisense",
+        "mikestead.dotenv",
+        "esbenp.prettier-vscode",
+        "zignd.html-css-class-completion",
+        "mehedidracula.php-namespace-resolver",
+        "vs-publisher-988541.apexsql-power-tools",
+        "gruntfuggly.todo-tree",
+        "k--kato.intellij-idea-keybindings",
+        "rangav.vscode-thunder-client",
+        "formulahendry.auto-close-tag",
+        "formulahendry.auto-rename-tag"
+    ],
+    "settings": {
+        "terminal.integrated.defaultProfile.linux": "bash",
+        "editor.fontLigatures": true,
+        "editor.formatOnSave": true,
+        "editor.mouseWheelZoom": true,
+        "cSpell.language": "en_us,es-es",
+        "php.suggest.basic": false,
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+        "blade.format.enable": true,
+        "editor.fontFamily": "'Fira Code', Consolas, 'Courier New', monospace",
+        "[php]": {
+            "editor.defaultFormatter": "bmewburn.vscode-intelephense-client"
+        },
+        "[blade]": {
+            "editor.defaultFormatter": "onecentlin.laravel-blade"
+        },
+        "emmet.showSuggestionsAsSnippets": true,
+        "emmet.showExpandedAbbreviation": "inMarkupAndStylesheetFilesOnly",
+        "editor.snippetSuggestions": "bottom",
+        "intelephense.phpdoc.useFullyQualifiedNames": true,
+        // Leer solo hojas de estilos que se ocupan
+        "html-css-class-completion.includeGlobPattern": "public/assets/css/app.css",
+        "editor.tokenColorCustomizations": {
+            "textMateRules": [
+                {
+                    "scope": [
+                        "punctuation.definition.comment",
+                        "comment.block",
+                        "comment.line",
+                        "comment.block.documentation"
+                    ],
+                    "settings": {
+                        "foreground": "#00FF00"
+                    }
+                }
+            ]
+        }
+    }
+}

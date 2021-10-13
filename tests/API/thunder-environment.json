@@ -1,0 +1,16 @@
+{
+    "client": "Thunder Client",
+    "environmentName": "exercise",
+    "dateExported": "2021-04-27T05:19:41.250Z",
+    "version": "1.0",
+    "variables": [
+        {
+            "name": "API_TOKEN",
+            "value": "c1febcb7-d718-401a-beb3-251069dc62e9|PJsQJ25ma9fhIxXdjW3u7AjdmoCPKnPy5IC041C6"
+        },
+        {
+            "name": "API_HOST",
+            "value": "http://localhost/api"
+        }
+    ]
+}
