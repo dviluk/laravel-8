@@ -23,8 +23,6 @@ services:
       - sail
     depends_on:
       - mysql
-      - redis
-      - selenium
   mysql:
     image: "mysql:5.7.29"
     ports:
