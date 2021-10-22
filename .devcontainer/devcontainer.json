@@ -1,6 +1,7 @@
 {
     "name": "PROYECT_NAME",
     "dockerComposeFile": "../docker-compose.yml",
+    "onCreateCommand": "composer install && php artisan key:generate --ansi && php artisan storage:link",
     "service": "laravel",
     "remoteUser": "sail",
     "workspaceFolder": "/home/sail/PROYECT_NAME",
